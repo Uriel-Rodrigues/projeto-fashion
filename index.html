@@ -1,87 +1,89 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fashion</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="index.css" />
-    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-  </head>
-  <body>
-    <footer class="h-100 flex justify-between py-20  bg-black text-gray-500">
-      <div>
-       <h2 class="font-extrabold text-white font">Fashion</h2>
-        <p>Complete your style with awesome clothes from us.</p>
-        <ul class="flex justify-around h-7 w-30 bg-white">
-          <li>
-            <a href="">
-              <box-icon type='logo' name='facebook'></box-icon>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <box-icon name='instagram' type='logo' ></box-icon>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <box-icon name="twitter" type="logo"></box-icon>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <box-icon name='linkedin' type='logo' ></box-icon>
-            </a>
-          </li>
-        </ul>
-      </div>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto Fashion</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <link rel="stylesheet" href="index.css">
+</head>
 
-      <div>
-        <h6 class=" text-white">Company</h6>
-        <ol>
-          <li>
-            <a href="" class="text-gray-500">About</a>
-          </li>
-          <li>
-            <a href="" >Contact Us</a>
-          </li>
-          <li>
-            <a href="">Support</a>
-          </li>
-          <li>
-            <a href="" >Careers</a>
-          </li>
-        </ol>
-      </div>
-      <div>
-        <h6 class=" text-white">Quick Link</h6>
-        <ol>
-          <li>
-            <a href="">Share Location</a>
-          </li>
-          <li>
-            <a href="">Orders Tracking</a>
-          </li>
-          <li>
-            <a href="">Size Guide</a>
-          </li>
-          <li>
-            <a href="">FAQs</a>
-          </li>
-        </ol>
-      </div>
-      <div>
-        <h6 class=" text-white">Legal</h6>
-        <ol>
-          <li>
-            <a href="">Terms & conditions</a>
-          </li>
-          <li>
-            <a href="">Privacy Policy</a>
-          </li>
-        </ol>
-      </div>
+<body>
+    <section>
+<!-- parte de adicionar email-->
+    </section>
+    <footer class="text-[#8a8a8a] bg-black font-[Arial]"> <!-- parte do boxicons e logo e tal-->
+        <div class="mx-auto max-w-[1140px] px-6 py-12">
+            <div class="grid grid-cols-1 gap-10 md:grid-cols-4 md:gap-12">
+                <div>
+                    <h2 class="font-[Poppins] text-[32px] font-extrabold tracking-wide text-white">FASHION</h2>
+                    <p class="mt-5 max-w-[250px] text-[15px] leading-6 ">Complete your style with awesome clothes from us.</p>
+                      
+                    <div class="mt-5 flex gap-2">
+                        <a href=""class="flex h-8 w-8 items-center justify-center rounded-lg bg-[#f3df58] transition hover:bg-white">
+                          <box-icon name="facebook" type="logo" size="18px"></box-icon>
+                        </a>
+                        <a href="" class="flex h-8 w-8 items-center justify-center rounded-lg bg-[#f3df58] transition hover:bg-white">
+                          <box-icon name="instagram" type="logo" size="18px"></box-icon>
+                        </a>
+                        <a href="" class="flex h-8 w-8 items-center justify-center rounded-lg bg-[#f3df58] transition hover:bg-white">                          
+                          <box-icon name="twitter" type="logo" size="18px"></box-icon>
+                        </a>
+                        <a href="" class="flex h-8 w-8 items-center justify-center rounded-lg bg-[#f3df58] transition hover:bg-white">
+                          <box-icon name="linkedin" type="logo" size="18px"></box-icon>
+                        </a>
+                    </div>
+                </div>
+<!-- links rapidos e tudo mais-->
+                <div>
+                    <h3 class="text-[15px] font-normal text-white">Company</h3>
+                    <ul class="mt-5 space-y-3 text-[15px] text-[#777]">
+                        <li>
+                            <a href="" class="transition hover:text-white">About</a>
+                        </li>
+                        <li>
+                            <a href=""class="transition hover:text-white">Contact us</a>
+                        </li>
+                        <li>
+                            <a href=""class="transition hover:text-white">Support</a>
+                        </li>
+                        <li>
+                          <a href=""class="transition hover:text-white">Careers</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-[15px] font-normal text-white">Quick Link</h3>
+                    <ul class="mt-5 space-y-3 text-[#777] text-[15px]">
+                        <li>
+                            <a href="" class="transition hover:text-white">Share Location</a>
+                        </li>
+                        <li>
+                            <a href="" class="transition hover:text-white">Orders Tracking</a>
+                        </li>
+                        <li>
+                            <a href="" class="transition hover:text-white">Size Guide</a>
+                        </li>
+                        <li>
+                            <a href="" class="transition hover:text-white">FAQs</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-[15px] font-normal text-white justify-end">Legal</h3>
+                    <ul class="mt-5 space-y-3 text-[15px] text-[#777]">
+                        <li>
+                            <a href="" class="transition hover:text-white">Terms & conditions</a>
+                        </li>
+                        <li>
+                            <a href="" class="transition hover:text-white">Privacy Policy</a>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </footer>
-  </body>
+</body>
 </html>
