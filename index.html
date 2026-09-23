@@ -8,7 +8,10 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <section id="lojas" class="bg-[#EBD96B] flex md:flex-wrap md:justify-center items-center gap-4 px-2 md:px-4 *:w-13 md:*:w-20 *:mix-blend-darken">
+
+    <!-- Seção do Lucas -->
+
+    <section id="lojas" class="bg-[#EBD96B] flex md:flex-wrap md:justify-between lg:justify-evenly items-center gap-4 px-2 md:px-4 *:w-13 md:*:w-20 *:mix-blend-darken">
             <img src="assets/images/h-m.png" alt="Logo H&M">
             <img src="assets/images/obey.png" alt="">
             <img class="" src="assets/images/shopify.jpg" alt="">
@@ -18,29 +21,41 @@
     </section>
 
     <section id="youngs-favourite">
-        <p class="text-4xl text-center font-black m-4">Young's Favourite</p>
+        <div id="titulo" class="relative">
+            <span class="absolute bottom-0 left-0 text-4xl text-center lg:text-left font-black pt-20 pb-8 md:pb-4 lg:pb-4">Young's Favourite</span>
+            <img src="assets/imagem1.png" alt="">
+        </div>
 
         <div class="flex justify-center gap-4">
-            <div class="flex flex-col items-center"> 
-                <div class="w-44 h-80 overflow-hidden rounded-lg">
+            <div class="flex flex-col items-center md:items-start lg:gap-2 lg:items-start"> 
+                <div class="w-44 lg:w-120 md:w-80 h-80 md:h-60 lg:h-80 overflow-hidden rounded-lg">
                     <img class="w-full h-full object-cover object-[35%_20%] rounded-2xl" src="assets/images/youngs-favourite-1.png" alt="Two white girls smiling wearing glasses" class="">
                 </div>
-                <a class="text-base" href="">Trending on Instagram</a>
-                <h6>Explore Now!</h6>
+                
+                <div class="flex gap-4 items-center pl-2 md:justify-between lg:p-0 md:w-80 lg:w-120">
+                    <div>
+                        <a class="text-base lg:text-left" href="">Trending on Instagram</a>
+                        <h6 class="text-[#7F7F7F] text-xs">Explore Now!</h6>
+                    </div>
+                <a href=""><span class="text-[#797979] text-4xl">→</span></a>
+                </div>
             </div>
 
-            <div class="flex flex-col items-center">
-                <div class="w-44 h-80 overflow-hidden rounded-lg">
-                    <img class="w-full h-full object-cover object-[50%_20%] rounded-2xl" src="assets/images/youngs-favourite-2.png" alt="Girl with pink and red glasses smiling on a pink background">
+            <div class="flex flex-col pr-3 lg:gap-2">
+                <div class="w-44 md:w-80 lg:w-120 h-80 md:h-60 lg:h-80 overflow-hidden rounded-lg">
+                    <img class="w-full h-full object-cover object-[50%_20%] lg:object-[50%_50%] rounded-2xl" src="assets/images/youngs-favourite-2.png" alt="Girl with pink and red glasses smiling on a pink background">
                 </div>
-                <div class="flex gap-4 items-center ">
+                
+                <div class="flex gap-4 items-center md:items-left justify-between lg:w-120">
                     <div>
-                        <a href="mt-2 text-center">All Under $40</a>
-                        <h6>Explore Now!</h6>
+                        <a href="text-left">All Under $40</a>
+                        <h6 class="text-[#7F7F7F] text-xs">Explore Now!</h6>
                     </div>
-                    <p class="text-[#797979]">→</p>
+                    <a href=""><span class="text-[#797979] text-4xl">→</span></a>
                 </div>
             </div>
     </section>
+
+    <!-- Fim da seção do Lucas -->
 </body>
 </html>
