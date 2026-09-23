@@ -1,20 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import "tailwindcss";
 
 *{
     font-family: "Poppins", sans-serif;
-<<<<<<< HEAD
-=======
 }
 
-<<<<<<< HEAD
-.header{
-    @apply ;
->>>>>>> cfc784aaec7d3b9b3a43d7e87e13535732f5716a
-}
-=======
-}
-
-Link do figma
-https://www.figma.com/design/irKrUaMtmhs6n0z79YfoZv/Shopping-Website--Community-?node-id=2-234&t=0qDryHPdFZBNwErn-0
->>>>>>> 007644d6b9c2c026e7643511c1b1463703a9a976
