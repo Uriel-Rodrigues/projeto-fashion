@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,18 +8,102 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
+    <header class="flex lg:flex-row lg:justify-around flex-col items-center gap-3 mx-6 my-6">
+        <div class="flex gap-3 ">
+            <img src="assets/logo.png" alt="logo">
+            <img src="assets/fashion.png" alt="fashion">
+        </div>
+        <nav class="flex gap-6 items-center">
+            <a href="#">CATALOGUE</a>
+            <a href="#">FASHION</a>
+            <a href="#">FAVOURITE</a>
+            <a href="#">LIFESTYLE</a>
+            <a class="leading-10 bg-black text-white rounded px-[22px] duration-200 hover:px-[25px] hover:shadow-black hover:shadow-lg hover:bg-amber-500" href="#">SING UP</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="flex justify-start bg-gray-100 rounded-3xl h-852px max-w-full mx-8 lg:mx-70 mt-5 py-6 lg:py-6 relative z-1 overflow-hidden">
+            <div class="flex flex-col gap-2 lg:gap-6 relative z-1 pl-6 lg:pl-20">
 
-    <!-- Seção do Lucas -->
+                <span class="bg-white h-10 lg:h-18 w-33 lg:w-65 absolute -z-1 -rotate-2 pl-6 -ml-1"></span>
 
-    <section id="lojas" class="bg-[#EBD96B] flex md:flex-wrap md:justify-between lg:justify-evenly items-center gap-4 px-2 md:px-4 *:w-13 md:*:w-20 *:mix-blend-darken">
+                <span class="bg-[#EBD96B] h-10 lg:h-18 w-35 lg:w-65 absolute -z-1 -rotate-2 mt-20 lg:mt-38 -ml-1"></span>
+
+                <h1 class="text-3xl lg:text-6xl font-black w-50 leading-10 lg:leading-tight">LET’S <br> EXPLORE UNIQUE CLOTHES.</h1>
+
+                <p class=" w-50 lg:w-full lg:text-lg">Live for Influential and Innovative fashion!</p>
+
+                <div class="flex items-center gap-4">
+                    <img class=" h-full w-15 lg:w-30 object-contain " src="assets/detalhe_header.png" alt="detalhe_header">
+
+                    <a class="leading-8 lg:leading-10 text-[15px] lg:text-[20px] rounded bg-black text-white px-4 lg:px-[30px] duration-200 hover:px-[40px] hover:shadow-black hover:shadow-lg hover:bg-amber-500" href="#">Shop Now</a>
+                </div>
+            </div>
+            <img class="absolute -z-1 -right-15 top-[44px] lg:top-[15px] w-[526px] lg:w-[900px]" src="assets/bg-meninaEstrela.png" alt="bg-meninaEstrela">
+        </section>
+
+    <!-- Seção do Lucas 1 -->
+
+        <section id="lojas" class="bg-[#EBD96B] flex md:flex-wrap md:justify-between lg:justify-evenly items-center gap-4 px-2 md:px-4 *:w-13 md:*:w-20 *:mix-blend-darken">
             <img src="assets/images/h-m.png" alt="Logo H&M">
             <img src="assets/images/obey.png" alt="">
             <img class="" src="assets/images/shopify.jpg" alt="">
             <img class="" src="assets/images/lacoste.png" alt="">
             <img class="" src="assets/images/levis.jpg" alt="">
             <img class="md:w-20 md:h-16" src="assets/images/amazon.jpg" alt="">
-    </section>
+        </section>
+    
+    <!-- Fim da Seção do Lucas 1 -->
+
+        <section class=" flex lg:items-start justify-center items-center flex-col gap-5 w-full  max-w-[1638px] m-auto min-h-[967px] px-4 md:px-[104px]">
+            <div>
+                <img src="./assets/img_arrivals.png" alt="New Arrivals" class="w-[411px] max-w-full h-auto object-contain" />
+            </div>
+            <div class="flex flex-col md:flex-row gap-16 w-100% h-[704px] ">
+                <img src="./assets/img_girl1.png" alt="Girl com moleton" />
+                <img src="./assets/img_girl2.png" alt="Girl com jaqueta" />
+                <img src="./assets/img_girl3.png" alt="Girl com camiseta" />
+            </div>
+        </section>
+
+         <!-- sec Renan -->
+        <section class=" relative grid grid-cols-1 md:grid-cols-2 bg-linear-to-tr from-[#E0C340] to-[#F9DF56] w-full overflow-hidden mt-80 lg:mt-10">
+    
+            <div class="relative w-full h-full">
+                <img class="absolute z-10 w-8 md:w-12 top-[15%] left-[10%] animate-spin" src="./assets/estrela.png" alt="Estrela" />
+                <img class="absolute z-10 w-8 md:w-12 top-[10%] left-[80%] animate-spin" src="./assets/estrela.png" alt="Estrela" />
+                <img class="absolute z-10 w-8 md:w-12 top-[70%] left-[15%] animate-spin" src="./assets/estrela.png" alt="Estrela" />
+                <img class="absolute z-10 w-8 md:w-12 top-[85%] left-[85%] animate-spin" src="./assets/estrela.png" alt="Estrela" />
+                <img src="./assets/mulher-bg-amarelo.png" alt="Mulher sorrindo" class="w-full h-full object-cover" />
+            </div>
+    
+            <div class="flex flex-col justify-center items-start p-8 md:p-16 gap-5 text-black">
+    
+                <h2 class="text-5xl md:text-7xl font-black uppercase leading-none tracking-tight">
+                    <span class="bg-white px-4 py-1 inline-block transform -rotate-2 mb-2 animate-bounce">Payday</span><br>
+                    Sale Now
+                </h2>
+    
+                <p class="text-lg md:text-xl max-w-md font-medium leading-snug">
+                    Spend minimal $100 get 30% off voucher code for your next purchase
+                </p>
+    
+                <div class="mt-2">
+                    <p class="font-bold text-lg">1 June - 10 June 2021</p>
+                    <p class="text-sm font-medium">*Terms & Conditions apply</p>
+                </div>
+    
+                <a href="" class="mt-4 bg-black text-white font-bold text-sm tracking-wider uppercase rounded-sm px-10 py-4 inline-block">
+                    Shop Now
+                </a>
+            </div>
+        </section>
+        <!-- Renan -->
+
+    <!-- Seção do Lucas 2 -->
 
     <section class="lg:max-w-5xl lg:mx-auto lg:px-4 lg:py-10" id="youngs-favourite">
         <div id="titulo" class="relative">
@@ -56,6 +141,30 @@
             </div>
     </section>
 
-    <!-- Fim da seção do Lucas -->
+    <!-- Fim da seção do Lucas 2 -->
+
+    <!-- Seção Gabriel  -->
+    <section id="app" class="flex flex-col lg:flex-row justify-center items-center w-100% mt-10">
+            <div class="text-center lg:text-left">
+                <h1 class="text-2xl xl:text-[48px] font-black mb-5 xl:mb-10 mt-5">
+                    DOWNLOAD APP & <br />
+                    GET THE VOUCHER!
+                </h1>
+                <p class="xl:text-2xl text-[#7C7C7C] px-4 lg:pd-0 xl:w-110 mb-8 xl:mb-15">
+                    Get 30% off for first transaction using Rondovision mobile app for now.
+                </p>
+                <div class="flex justify-center lg:justify-start gap-5">
+                    <a href="#" class="w-30 lg:w-auto"><img src="./assets/Rectangle 18.png" alt=""></a>
+                    <a href="#" class="w-30 lg:w-auto"><img src="./assets/Rectangle 55.png" alt=""></a>
+                </div>
+            </div>
+
+            <div>
+                <img class=" h-alto w-90 lg:w-200 contain-content" src="./assets/Group 84.png" alt="">
+            </div>
+    </section>
+    <!-- Fim da seção do Gabriel -->
+
+    </main>
 </body>
 </html>
